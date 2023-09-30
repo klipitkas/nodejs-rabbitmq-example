@@ -19,7 +19,7 @@ import { log } from './helpers';
     while (true) {
       await channel.consume(queueName, (msg) => {
         if (msg) {
-          log('Consumed message ' + msg?.content.toString());
+          log('Consumed message ' + msg.content.toString());
           channel.ack(msg);
         }
       });

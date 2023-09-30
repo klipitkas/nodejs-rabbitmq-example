@@ -4,6 +4,12 @@ Simple RabbitMQ consumer / producer example written in NodeJS.
 
 **NOTE**: To be used for microservice based architecture.
 
+## SETUP ENV
+
+    pip install nodeenv
+    nodeenv --force --prebuilt -n 18.18.0 env
+    . env/bin/activate
+
 ## USE DOCKER TO LAUNCH A RABBITMQ INSTANCE
 
 To launch an instance of RabbitMQ locally:

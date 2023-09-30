@@ -1,4 +1,4 @@
 !.gitignore
 
-# Ignore node modules.
+env
 node_modules
